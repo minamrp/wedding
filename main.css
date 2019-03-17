@@ -58,6 +58,12 @@
     overflow: hidden;
     transform: translate(6%,8%);
 }
+@media all and (min-width: 765px){
+    #video_background{
+        right: 0;
+        transform: none;
+    }
+}
 #video_pattern {
     background:#fff;
     position: fixed;
@@ -92,6 +98,7 @@
 @media all and (min-width: 765px){
     .message{
         font-size: 60px;
+        padding-top: 1%;
     }
 }
 .data__wedding{
@@ -100,6 +107,11 @@
     font-size: 25px;
     font-weight: 700;
     padding-top: 65%;
+}
+@media all and (min-width: 765px){
+    .data__wedding{
+        padding-top: 25%;
+    }
 }
 .locationlink{
     width: 20px;
@@ -123,7 +135,8 @@
 }
 @media all and (min-width: 765px){
     .container__names{
-        margin-top: 40%;
+        margin-top: 5%;
+        justify-content: space-evenly;
     }
 }
 .oscar{
