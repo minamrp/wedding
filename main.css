@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dancing Script', cursive;
     text-align: center;
 }
 .outer {
@@ -35,6 +34,7 @@
     z-index: -1;
 }
 .text {
+    font-family: 'Dancing Script', cursive;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -56,7 +56,7 @@
     height: auto;
     z-index: -10;
     overflow: hidden;
-    transform: translate(5%,5%);
+    transform: translate(6%,8%);
 }
 #video_pattern {
     background:#fff;
@@ -83,9 +83,11 @@
 }
 
 .message{
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 0.9;
     text-align: center;
     color: coral;
+    padding-top: 5%;
 }
 @media all and (min-width: 765px){
     .message{
@@ -93,9 +95,10 @@
     }
 }
 .data__wedding{
-
+    /* font-family: 'Roboto', sans-serif; */
     color:whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
     padding-top: 65%;
 }
 .locationlink{
@@ -115,7 +118,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 25%;
+    margin-top: 20%;
     margin-bottom: 10%;
 }
 @media all and (min-width: 765px){
@@ -125,13 +128,13 @@
 }
 .oscar{
     margin-left: 20px;
-    margin-bottom: 15%;
+
     font-size: 25px;
     text-align: center;
 }
 .may{
     margin-right: 20px;
-    margin-bottom: 15%;
+
     font-size: 25px;
     text-align: center;
 }
