@@ -58,7 +58,7 @@
     overflow: hidden;
     transform: translate(6%,8%);
 }
-@media all and (min-width: 765px){
+@media all and (min-width: 570px){
     #video_background{
         right: 0;
         transform: none;
@@ -82,12 +82,11 @@
     align-items: center;
     flex-direction: column;
 }
-@media all and (min-width: 765px){
+@media all and (min-width: 570px){
     .text{
         justify-content: space-between;
     }
 }
-
 .message{
     font-size: 35px;
     line-height: 0.9;
@@ -95,20 +94,19 @@
     color: coral;
     padding-top: 5%;
 }
-@media all and (min-width: 765px){
+@media all and (min-width: 760px){
     .message{
         font-size: 60px;
         padding-top: 1%;
     }
 }
 .data__wedding{
-    /* font-family: 'Roboto', sans-serif; */
-    color:whitesmoke;
+    color:white;
     font-size: 25px;
     font-weight: 700;
     padding-top: 65%;
 }
-@media all and (min-width: 765px){
+@media all and (min-width: 400px){
     .data__wedding{
         padding-top: 25%;
     }
@@ -123,6 +121,13 @@
     height: 20px;
     margin-bottom: -5px;
     margin-left: -10px;
+    animation: bounce 2s infinite;
+    cursor: pointer;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-8px);}
+    60% {transform: translateY(-5px);}
 }
 .container__names{
     color:whitesmoke;
@@ -133,7 +138,7 @@
     margin-top: 20%;
     margin-bottom: 10%;
 }
-@media all and (min-width: 765px){
+@media all and (min-width: 400px){
     .container__names{
         margin-top: 5%;
         justify-content: space-evenly;
