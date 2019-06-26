@@ -140,12 +140,10 @@
     60% {transform: translateY(-5px);}
 }
 .imageicon{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-bottom: -5px;
     margin-left: -10px;
-    animation: bounce 2s infinite;
-    cursor: pointer;
 }
 .container__names{
     color:whitesmoke;
