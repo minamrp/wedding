@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-align: center;
 }
+.container__page{
+    max-height: 100vh;
+}
 .outer {
     width: 100%;
     display: block;
@@ -112,6 +115,7 @@
 @media all and (min-width: 400px){
     .data__wedding{
         padding-top: 65%;
+        padding-bottom: 10%;
     }
 }
 .information{
@@ -178,18 +182,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20%;
-    margin-bottom: 10%;
+
 }
 @media all and (min-width: 400px){
     .container__names{
-        margin-top: 5%;
+        margin-top: 2%;
         justify-content: space-evenly;
     }
 }
 .oscar{
     margin-left: 20px;
-
     font-size: 25px;
     text-align: center;
 }
