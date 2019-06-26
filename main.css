@@ -111,6 +111,16 @@
         padding-top: 25%;
     }
 }
+.city{
+    display: flex;
+    flex-direction: row;
+    z-index: -20;
+}
+.imagehotel{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+}
 .locationlink{
     width: 20px;
     height: 20px;
@@ -128,6 +138,14 @@
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
     40% {transform: translateY(-8px);}
     60% {transform: translateY(-5px);}
+}
+.imageicon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: -10px;
+    animation: bounce 2s infinite;
+    cursor: pointer;
 }
 .container__names{
     color:whitesmoke;
