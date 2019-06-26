@@ -111,10 +111,12 @@
         padding-top: 25%;
     }
 }
-.city{
+.information{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     z-index: -20;
+    Padding: 10px;
 }
 .imagehotel{
     width: 20px;
@@ -125,6 +127,14 @@
     width: 20px;
     height: 20px;
     padding: 20px;
+}
+.imagelinkhotel{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    animation: bounce 2s infinite;
+    cursor: pointer;
 }
 .imagelink{
     width: 20px;
